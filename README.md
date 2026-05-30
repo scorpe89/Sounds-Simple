@@ -125,27 +125,6 @@ The app is already configured with the Sounds Simple project URL and publishable
 4. Publishable key:
    `sb_publishable_V1LJorrIxrYz3hpPo5RZwg_4s5vRgKr`
 
-Do not put a Supabase secret key or service role key into the app.
-
-## Create Supabase Tables
-
-If your Supabase dashboard does not show tables, run the schema:
-
-1. Open Supabase.
-2. Open your project.
-3. Go to `SQL Editor`.
-4. Open this project file: `supabase_schema.sql`.
-5. Copy all of it.
-6. Paste it into Supabase SQL Editor.
-7. Click `Run`.
-8. Go to `Table Editor`.
-9. You should see:
-   - `profiles`
-   - `friends`
-   - `shared_playlists`
-
-If those tables do not appear after running the SQL, refresh the Supabase page and check that you ran it in the correct project.
-
 ## Where Files Are Stored
 
 The app stores user data here:
@@ -159,28 +138,15 @@ Important files:
 - `Sounds/`
 - `Images/`
 
-## Share With Someone Else
-
-Send them `Sounds Simple.zip`.
-
-They should unzip it, open `Sounds Simple Share`, and run `install_to_applications.command`.
-
 ## Troubleshooting
 
 If login freezes:
 
-- Wait up to 20 seconds. The app should show an error if Supabase cannot be reached.
-- Check your internet connection.
-- Confirm the Supabase URL and publishable key.
-- Confirm the Supabase project has Auth enabled.
+- Wait up to 20 seconds. The app should show an error if Supabase cannot be reached check your internet connection.
 
 If login says invalid credentials:
 
 - The email or password is wrong, or the account has not been confirmed if email confirmation is enabled.
-
-If tables are missing in Supabase:
-
-- Run `supabase_schema.sql` in Supabase SQL Editor.
 
 If a linked music service will not play:
 
