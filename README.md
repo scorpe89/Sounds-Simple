@@ -32,14 +32,6 @@ Normal use:
 1. Enter a username, email, and password.
 2. Click `Create Account`, or enter an existing email/password and click `Sign In`.
 
-Admin bypass for local testing:
-
-- Username: `SoundsSimpleAdmin`
-- Password: `SoundsSimple1!`
-- Email can be left blank for this bypass.
-
-The admin bypass unlocks the local app. It does not create a Supabase user and does not provide online friend/sharing identity.
-
 ## Add A Sound
 
 1. Go to the `List` tab.
