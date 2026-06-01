@@ -25,12 +25,11 @@ If macOS says the app cannot be opened because it is from an unidentified develo
 
 ## First Launch
 
-Sounds Simple requires an account screen before the app can be used.
+Sounds Simple works locally without an account. If you see the account window, you can sign in, create an account, close it, or choose `Use App Without Account`.
 
-Normal use:
+Accounts are only needed for online features such as friends and sharing.
 
-1. Enter a username, email, and password.
-2. Click `Create Account`, or enter an existing email/password and click `Sign In`.
+You can also open account options later from `Sounds Simple > Account...`.
 
 ## Add A Sound
 
@@ -114,17 +113,6 @@ In the `Music` tab:
 - `Export Playlist` creates a shareable playlist package with copied audio/artwork files.
 - `Import Playlist` imports a package from someone else.
 
-## Supabase Setup
-
-The app is already configured with the Sounds Simple project URL and publishable key in code. If the app says Supabase is not configured:
-
-1. Open `Sounds Simple` menu.
-2. Choose `Configure Supabase`.
-3. Project URL:
-   `https://vygzpfdplpmetdfoions.supabase.co`
-4. Publishable key:
-   `sb_publishable_V1LJorrIxrYz3hpPo5RZwg_4s5vRgKr`
-
 ## Where Files Are Stored
 
 The app stores user data here:
@@ -138,11 +126,19 @@ Important files:
 - `Sounds/`
 - `Images/`
 
+## Share With Someone Else
+
+Send them `Sounds Simple.zip`.
+
+They should unzip it, open `Sounds Simple Share`, and run `install_to_applications.command`.
+
 ## Troubleshooting
 
-If login freezes:
+If account sign-in does not work:
 
-- Wait up to 20 seconds. The app should show an error if Supabase cannot be reached check your internet connection.
+- Choose `Use App Without Account` to keep using local soundboard features.
+- Check your internet connection.
+- Try signing in again later.
 
 If login says invalid credentials:
 
