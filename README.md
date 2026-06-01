@@ -35,6 +35,10 @@ You can also open account options later from `Sounds Simple > Account...`.
 
 Use the `Add Friend` button in the `Active Friends` panel. Enter your friend's Sounds Simple username or email address, then send the request.
 
+The same panel also shows active users and active friends. If you are signed in, you appear in the active users section. After 5 minutes without activity, your status changes to idle.
+
+Use `Message Friend` to send a direct message. Messages only work with accepted friends.
+
 ## Send Feedback
 
 Open `Sounds Simple > Send Feedback...`.
