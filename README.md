@@ -31,6 +31,10 @@ Accounts are only needed for online features such as friends and sharing.
 
 You can also open account options later from `Sounds Simple > Account...`.
 
+## Add Friends
+
+Use the `Add Friend` button in the `Active Friends` panel. Enter your friend's Sounds Simple username or email address, then send the request.
+
 ## Send Feedback
 
 Open `Sounds Simple > Send Feedback...`.
