@@ -31,6 +31,12 @@ Accounts are only needed for online features such as friends and sharing.
 
 You can also open account options later from `Sounds Simple > Account...`.
 
+## Send Feedback
+
+Open `Sounds Simple > Send Feedback...`.
+
+Enter either your email address or your Sounds Simple username, then type your message and click `Send`. If you use a username, the app checks that the username exists before sending.
+
 ## Add A Sound
 
 1. Go to the `List` tab.
@@ -78,13 +84,25 @@ Recent recordings appear on the recording page. Double-click a recording to play
 
 ## Edit Audio
 
-1. Go to the `Editor` tab.
-2. Choose `Use Recording`, `Use App Sound`, or `Import External`.
-3. Use the waveform timeline to choose the section you want to keep. Drag the `Start` or `End` handle on the waveform, or use the trim sliders for precise adjustments.
-4. Use `Wave Zoom` to expand the waveform when you need to see a smaller section more clearly. Scroll horizontally when zoomed in.
-5. Set the volume.
-6. Click `Preview Edit`.
-7. Click `Save Edited Clip`.
+1. Click `Open Sound Editor` on the right side of the main window.
+2. Click the top drop box to choose an audio file, or drag an audio file into it.
+3. Use the control bar below the drop box for recording/app sound imports, preview, save, layers, zoom, and fine trim controls.
+4. Click and drag across the waveform to select the section you want to keep.
+5. Drag the volume control inside the waveform to adjust loudness.
+6. Use the zoom buttons to expand or shrink the waveform. Scroll horizontally when zoomed in.
+7. Click `Add Layer` to place another audio file over the main track.
+8. Right-click a layer to edit its start time, volume, show it in Finder, or remove it.
+9. Click `Preview Mix` to hear the layered edit.
+10. Click `Save Edited Clip`.
+
+Editor keyboard commands:
+
+- `Space`: preview the mix.
+- `Command-S`: save the edited clip.
+- `Command-L`: add a layer.
+- `Command-+`: zoom in.
+- `Command--`: zoom out.
+- `Delete`: remove the selected layer.
 
 The saved clip can be added to the soundboard.
 
@@ -97,12 +115,13 @@ The saved clip can be added to the soundboard.
 5. Click `Add From Playlist` to copy a song from another playlist into the selected playlist.
 6. Double-click a song to play it.
 7. Use the playback buttons for previous, rewind, play/pause, fast-forward, and next.
+8. Click `Share Playlist` to create one soundboard item that starts the entire playlist from one hotkey or pad.
 
 The music table columns are:
 
 `Track # | Title | Album | Artist | Duration`
 
-Click a column header to sort. Right-click a song and choose `Edit Song Data` to edit track number, title, album, artist, or duration. Right-click a song and choose `Add to Playlist...` to copy that song into another playlist.
+Click a column header to sort. Right-click a song and choose `Edit Song Data` to edit track number, title, album, artist, or duration. Right-click a song and choose `Add to Playlist...` to copy that song into another playlist. Right-click a playlist and choose `Share Playlist to Soundboard` to create one soundboard item for the whole playlist.
 
 When you remove a song from a normal playlist, choose `This playlist only` if you want it to stay in `All Songs`. Removing from the `All Songs` library removes that song from every playlist too.
 
