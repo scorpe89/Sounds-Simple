@@ -1,13 +1,3 @@
-## Changes
-
-### Build 1.5
-
-- Added time markers to the editor waveform.
-- Added the main audio file to the editor layers panel.
-- Added internal scrolling to the users/friends panel.
-- Made `Space` pause or resume audio playback throughout the app.
-- Started tracking build changes in this README.
-
 # Sounds Simple
 
 Sounds Simple is a native macOS soundboard and music companion. It can play local audio clips from keyboard shortcuts, open linked music services, record custom audio, edit clips, and manage local playlists.
@@ -20,7 +10,7 @@ Sounds Simple is a native macOS soundboard and music companion. It can play loca
 
 ## Install
 
-1. Download `Sounds Simple v. 1.5.zip`.
+1. Download `Sounds Simple.zip`.
 2. Double-click the zip file to unzip it.
 3. Open the unzipped `Sounds Simple Share` folder.
 4. Double-click `install_to_applications.command`.
@@ -190,3 +180,24 @@ If a linked music service will not play:
 - Open the link in a browser first.
 - Make sure you are signed into that service if needed.
 - Some services require paid accounts for full playback.
+
+## Changes
+
+### Build 1.5.2
+
+- Stretched Music tab control rows across the full bottom panel width.
+- Tightened the Music tab bottom spacing so the controls sit inside the designated area.
+
+### Build 1.5.1
+
+- Repositioned Music tab controls across the bottom of the music panel.
+- Kept Music tab controls inside the visible panel bounds.
+- Reduced the playback/artwork area height so the song list and controls do not overlap.
+
+### Build 1.5
+
+- Added time markers to the editor waveform.
+- Added the main audio file to the editor layers panel.
+- Added internal scrolling to the users/friends panel.
+- Made `Space` pause or resume audio playback throughout the app.
+- Started tracking build changes in this README.
