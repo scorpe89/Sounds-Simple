@@ -105,7 +105,7 @@ Recent recordings appear on the recording page. Double-click a recording to play
 
 Editor keyboard commands:
 
-- `Space`: preview the mix.
+- `Space`: pause or resume playback.
 - `Command-S`: save the edited clip.
 - `Command-L`: add a layer.
 - `Command-+`: zoom in.
@@ -124,6 +124,8 @@ The saved clip can be added to the soundboard.
 6. Double-click a song to play it.
 7. Use the playback buttons for previous, rewind, play/pause, fast-forward, and next.
 8. Click `Share Playlist` to create one soundboard item that starts the entire playlist from one hotkey or pad.
+9. Click `Share Friend` to share the selected playlist with an accepted friend.
+10. Click `Get Shared` to import playlists friends have shared with you.
 
 The music table columns are:
 
@@ -132,6 +134,8 @@ The music table columns are:
 Click a column header to sort. Right-click a song and choose `Edit Song Data` to edit track number, title, album, artist, or duration. Right-click a song and choose `Add to Playlist...` to copy that song into another playlist. Right-click a playlist and choose `Share Playlist to Soundboard` to create one soundboard item for the whole playlist.
 
 When you remove a song from a normal playlist, choose `This playlist only` if you want it to stay in `All Songs`. Removing from the `All Songs` library removes that song from every playlist too.
+
+Friend playlist sharing sends the playlist data through your account. Linked songs travel cleanly. Local audio files still need to exist on the receiving device unless account media sync has been set up.
 
 ## Playlist Sharing
 
@@ -176,3 +180,13 @@ If a linked music service will not play:
 - Open the link in a browser first.
 - Make sure you are signed into that service if needed.
 - Some services require paid accounts for full playback.
+
+## Changes
+
+### Build 1.5
+
+- Added time markers to the editor waveform.
+- Added the main audio file to the editor layers panel.
+- Added internal scrolling to the users/friends panel.
+- Made `Space` pause or resume audio playback throughout the app.
+- Started tracking build changes in this README.
